@@ -88,36 +88,7 @@ public class UserChoice {
 		ps.setDouble(2, sa.AccNumber);
 		ps.executeUpdate();
 
-		// }
-		/*
-		 * else if(sa.equals(sa.draw)){ double newbal1=sa.draw;
-		 * 
-		 * ps=con.
-		 * prepareStatement("update Account set balance=? where AccountNumber=?"
-		 * ); ps.setDouble(1, newbal1); ps.setDouble(2, sa.AccNumber);
-		 * ps.executeUpdate(); }
-		 * 
-		 * else{
-		 * 
-		 * double newbal=trans.depo;
-		 * 
-		 * ps=con.
-		 * prepareStatement("update Account set balance=? where AccountNumber=?");
-		 *  ps.setDouble(1, newbal);
-		 *  ps.setDouble(2, trans.AccNumber);
-		 * ps.executeUpdate();
-		 * 
-		 * 
-		 * double newbal1=sa.draw;
-		 * 
-		 * ps=con.
-		 * prepareStatement("update Account set balance=? where AccountNumber=?"
-		 * ); ps.setDouble(1, newbal1); ps.setDouble(2, sa.AccNumber);
-		 * ps.executeUpdate();
-		 * 
-		 * 
-		 * }
-		 */
+		
 
 	}
 
